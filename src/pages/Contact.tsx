@@ -8,9 +8,9 @@ import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
 const contactInfo = [
-  { icon: MapPin, label: "Address", value: "Joint Road, Quetta, Balochistan, Pakistan" },
-  { icon: Phone, label: "Phone", value: "+92-81-9202491" },
-  { icon: Mail, label: "Email", value: "info@bbise.edu.pk" },
+  { icon: MapPin, label: "Address", value: "Samungli Road, Quetta, Balochistan, Pakistan" },
+  { icon: Phone, label: "Phone", value: "+92-XXX-XXXXXXX" },
+  { icon: Mail, label: "Email", value: "info@bbisequetta.edu.pk" },
   { icon: Clock, label: "Working Hours", value: "Mon - Fri: 8:00 AM - 3:00 PM" },
 ];
 
@@ -29,7 +29,7 @@ export default function Contact() {
       <div className="hero-gradient text-primary-foreground py-12">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl font-bold mb-2">Contact Us</h1>
-          <p className="opacity-90">Get in touch with us for any queries or feedback</p>
+          <p className="opacity-90">Get in touch with BBISE Quetta for any queries or feedback</p>
         </div>
       </div>
 

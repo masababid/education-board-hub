@@ -30,10 +30,10 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-3">
-            <img src={boardLogo} alt="BBISE Logo" width={44} height={44} />
+            <img src={boardLogo} alt="BBISE Quetta Logo" width={48} height={48} className="rounded" />
             <div className="hidden sm:block">
-              <p className="font-bold text-primary leading-tight">BBISE</p>
-              <p className="text-xs text-muted-foreground">Quetta, Balochistan</p>
+              <p className="font-bold text-primary leading-tight text-sm">BBISE Quetta</p>
+              <p className="text-xs text-muted-foreground">Board of Intermediate & Secondary Education</p>
             </div>
           </Link>
 

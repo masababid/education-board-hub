@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">BBISE Quetta</h3>
             <p className="text-sm opacity-90 leading-relaxed">
-              Balochistan Board of Intermediate and Secondary Education, Quetta is responsible for conducting examinations and granting certificates/diplomas.
+              Balochistan Board of Intermediate and Secondary Education, Quetta is the official body responsible for conducting examinations, granting certificates and diplomas for secondary and higher secondary education in Balochistan.
             </p>
           </div>
           <div>
@@ -35,21 +35,21 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="mt-0.5 shrink-0" />
-                <span className="opacity-90">Joint Road, Quetta, Balochistan, Pakistan</span>
+                <span className="opacity-90">Samungli Road, Quetta, Balochistan, Pakistan</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="shrink-0" />
-                <span className="opacity-90">+92-81-9202491</span>
+                <span className="opacity-90">+92-XXX-XXXXXXX</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} className="shrink-0" />
-                <span className="opacity-90">info@bbise.edu.pk</span>
+                <span className="opacity-90">info@bbisequetta.edu.pk</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center text-sm opacity-75">
-          © {new Date().getFullYear()} Balochistan Board of Intermediate & Secondary Education. All rights reserved.
+          © {new Date().getFullYear()} BBISE Quetta — Balochistan Board of Intermediate & Secondary Education. All rights reserved.
         </div>
       </div>
     </footer>
