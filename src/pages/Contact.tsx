@@ -9,7 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "Samungli Road, Quetta, Balochistan, Pakistan" },
-  { icon: Phone, label: "Phone", value: "{ icon: Phone, label: "Phone", value: "(081) 9202771" }," },
+  { icon: Phone, label: "Phone", value: "(081) 9202771" },
   { icon: Mail, label: "Email", value: "info@bbisequetta.edu.pk" },
   { icon: Clock, label: "Working Hours", value: "Mon - Fri: 8:00 AM - 3:00 PM" },
 ];
